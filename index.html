@@ -7,15 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Агрегатор новостей - только свежие новости</title>
   <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/default.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header></header>
-  <div class="container">
+  <header class="header"></header>
+  <div class="container flex-center">
     <img src="./img/logo.svg" alt="Логотип компании Only Fresh News" class="logo">
 
-    <form class="form-search">
+    <form class="form-search flex-center">
       <label class="search-label">
         <input type="search" class="search-input">
         <button class="search-submit" type="submit">
@@ -41,7 +42,7 @@
   </div>
 
   <main>
-    <div class="title__wrapper">
+    <div class="title-wrapper">
       <div class="container">
         <h1 class="visually-hidden">Агрегатор новостей Only Fresh News</h1>
         <h2 class="title">По вашему запросу “новости про IT” найдено 6 результатов</h2>
@@ -63,7 +64,10 @@
               </a>
             </h3>
             <p class="news-description">
-              По данным МТС, продажи устройств Huawei за первые две недели марта увеличились на 300%...
+              По данным МТС, продажи устройств Huawei за первые две недели марта увеличились на 300%... Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Voluptate ipsum labore in. Quidem iure pariatur, velit quasi
+              impedit minima neque officiis perspiciatis, numquam recusandae deleniti nihil. Quibusdam facere quaerat
+              quia?
             </p>
             <div class="news-footer">
               <time class="news-datetime" datetime="2002-03-16T16:11:06Z">
@@ -171,8 +175,8 @@
       </div>
     </section>
   </main>
-  <footer>
-    <div class="container">
+  <footer class="footer">
+    <div class="container footer-container">
       <img class="footer-logo" src="./img/logo.svg" alt="Логотип Only Fresh News">
 
       <p class="copyright">© 2020-2022 News</p>

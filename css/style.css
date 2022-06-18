@@ -1,0 +1,165 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.form-search {
+  width: 100%;
+  max-width: 850px;
+}
+
+.search-label {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 44px;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #E6E6E6;
+  border-radius: 22px;
+  padding-left: 20px;
+  padding-right: 35px;
+}
+
+.search-submit {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  width: 22px;
+  height: 22px;
+}
+
+.title-wrapper {
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.news {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.news-list {
+  display: grid;
+  gap: 40px 20px;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, 270px);
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-image {
+  width: 100%;
+  width: 270px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.news-link {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-right: 30px;
+  transition: color .3s ease-in-out;
+}
+
+.news-link:hover {
+  color: #09E079;
+}
+
+.news-description {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.news-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  font-size: 10px;
+  color: #8E8E8E;
+}
+
+.news-datetime {
+  display: flex;
+}
+
+.news-datetime span {
+  display: block;
+  margin-right: 12px;
+}
+
+.footer {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-logo {
+  justify-self: start;
+  align-self: center;
+}
+
+.copyright {
+  justify-self: start;
+  align-self: end;
+  font-size: 12px;
+}
+
+.social-list {
+  display: flex;
+  gap: 15px;
+  justify-self: end;
+  align-self: center;
+}
+
+.social-item {}
+
+.social-link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #09E079;
+  transition: color .3s ease-in-out;
+}
+
+.social-link:hover {
+  color: green;
+}
