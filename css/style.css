@@ -48,6 +48,31 @@
   height: 22px;
 }
 
+.choices {
+  width: 320px;
+
+}
+
+.choices__inner {
+  display: flex;
+  align-items: center;
+  border: 1px solid #E6E6E6;
+  border-radius: 22px;
+  height: 44px;
+  background-color: transparent;
+}
+
+
+.choices__placeholder {
+  opacity: 1;
+  font-size: 14px;
+  line-height: 0.8;
+}
+
+.choices[data-type*=select-one]:after {
+  right: 20px;
+}
+
 .title-wrapper {
   border-top: 1px solid #E6E6E6;
   border-bottom: 1px solid #E6E6E6;
